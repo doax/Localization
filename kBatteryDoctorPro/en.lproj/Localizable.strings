@@ -1,0 +1,338 @@
+/* 
+  Localizable.strings
+  kBatteryDoctorPro
+
+  Created by bo lin on 12-12-4.
+  Copyright (c) 2012年 iJinShan. All rights reserved.
+*/
+
+//Button
+"Button_3G"="3G";
+"Button_4G"="4G";
+"Button_LTE"="LTE";
+"Button_Airplane"="Airplane";
+"Button_AutoLock"="Auto-Lock";
+"Button_Backlight"="Brightness";
+"Button_Bluetooth"="Bluetooth";
+"Button_ClearBadge"="BadgeClear";
+"Button_Data"="Data";
+"Button_Flashlight"="FlashLight";
+"Button_HomeButton"="Home";
+"Button_KillBackground"="TaskClear";
+"Button_Location"="Location";
+"Button_Mute"="Sounds";
+"Button_Reboot"="Reboot";
+"Button_Respring"="Respring";
+"Button_Rotation"="Rotation";
+"Button_Shutdown"="Power Off";
+"Button_SleepButton"="Lock Screen";
+"Button_Uicache"="Fix Icons";
+"Button_VPN"="VPN";
+"Button_WiFi"="WLAN";
+
+//Home
+"home_view_title"="BatteryDoctorPro";
+"home_view_title_tabbar"="Modes";
+"home_view_mode_outdoor"="Outdoor";
+"home_view_mode_indoor"="Indoor";
+"home_view_mode_sleep"="Alarm";
+"home_view_hour"="hr";
+"home_view_minutes"="min";
+"home_view_remained"="Battery Life";
+"home_view_battery_status"="Status %d%%   %@";
+"navation_feedback"="Feedback";
+"navation_app_version"="Version";
+"navation_bar_more"="Other";
+"navation_bar_control"="List";
+"home_view_change_mode"="Enabled %@";
+"home_view_change_airplane_on"=" Mode, Airplane Mode is turned on, Phone and Messages can not be used.";
+"home_view_change_airplane_off"=" Mode, Airplane Mode is turned off, Phone and Messages can be used.";
+"home_view_change_data_on"=" Mode, Data On";
+"home_view_change_data_off"=" Mode, Data Off";
+"home_view_change_wifi_on"=", WLAN On.";
+"home_view_change_wifi_off"=", WLAN Off.";
+"home_view_complete_no_need"="No recharge necessary.";
+"home_view_complete_normal"="You can partially recharge now.";
+"home_view_complete_complete"="You can fully recharge now.";
+"home_view_mode_changed"="changed";
+"home_quick_button_intelligence"="Smart";
+"home_quick_button_clean"="Accelerate";
+
+//Panel
+"panel_remain_time_minutes"="Battery Life %d min";
+"panel_remain_time_minutes_and_hour"="Battery Life %d hr %02d min";
+"panel_apply_button"="Apply Mode";
+"panel_apply_noneed"="Current Mode";
+"panel_title"="Mode Setting";
+
+//Charging
+"charging_view_title"="Recharge";
+"charging_view_in_statge_1"="Hi-speed Charging";
+"charging_view_in_statge_2"="Continuation Charging";
+"charging_view_in_statge_3"="Trickle Charging";
+"charging_view_time_hour_and_minutes"="%d hr %02d min";
+"charging_view_time_minutes"="%d min";
+"charging_view_time_to_charge"="%@ Left";
+"charging_view_charging_remain_time"="%@ Left";
+"charging_view_complete_no_need"="Battery is full,\r\n no recharge necessary.";
+"charging_view_complete_normal"="Battery is medium,\r\n You can partially recharge your battery.";
+"charging_view_complete_complete"="Battery is low,\r\n You can fully recharge your battery.";
+"charging_view_time_to_complete"="Estimated Finish At:";
+"charging_view_complete_and_unplug"="Recharge is finished, please disconnect the charger.";
+"charging_view_statge_1"="Hi-speed";
+"charging_view_statge_2"="Continuation";
+"charging_view_statge_3"="Trickle";
+
+"charging_view_state_1_description"="Hi-speed Charging: Recharge battery up to 80% of capacity at maximum speed. You must continue recharging through the Continuation phase.";
+"charging_view_state_2_description"="Continuation Charging: Recharge battery at slower speed when battery is nearly full to ensure 100% full. You must continue recharging through the Trickle Charging phase.";
+"charging_view_state_3_description"="Trickle Charging:Recharge to full with tricklecurrent. Prolong the usage time of the battery.";
+
+//history
+"history_view_title"="Records";
+
+"Mon_"="Mon";
+"Tue_"="Tue";
+"Wed_"="Wed";
+"Thu_"="Thu";
+"Fri_"="Fri";
+"Sat_"="Sat";
+"Sun_"="Sun";
+
+"cal_title_datetime_format"="yyyy MM ";
+
+"history_tableview_header_datetime_format"="yyyy-MM-dd EEE";
+"history_good_charge_tip_msg"="Less than 20% complete three phase charge, once a month let the standby time more durable.";
+"history_normal_charge_tip_msg"="You can recharge battery whenever convenient, Partial Cycle will be prolong battery lifespan.";
+"history_bad_charge_tip_msg"="Limit recharging time to 6 hours per recharge. Please unplug the power when the battery is full.";
+
+"history_good_charge"="Full Cycle";
+"history_normal_charge"="Partial Cycle";
+"history_bad_charge"="Overcharge";
+
+//detail
+"detail_view_title"="System";
+"detail_view_battery_title"="Battery";
+"detail_view_system_title"="System";
+
+"detail_view_device"="Basic Information";
+"detail_view_battery"="Battery Information";
+"detail_view_wifi"="Wi-Fi Network";
+"detail_view_cell"="2G/3G Network";
+"detail_view_system"="System Information";
+"detail_view_hardware"="Hardware Specifications";
+
+"detial_view_memory_usage"="Memory Usage";
+
+"detail_view_cpu_usage"="CPU Usage";
+
+"detail_view_disk"="Storage";
+"detail_view_disk_usage"="Used";
+"detail_view_disk_usage_detail"="Usage %4.1f%% %4.1fGB";
+"detail_view_disk_free"="Available";
+"detail_view_disk_free_detail"="Available %4.1f%% %4.1fGB";
+
+"detail_view_last_days"="Last    Day (s)";
+"detail_view_last"="Last";
+"detail_view_health_mah"="Healthy (mAh) ";
+"detail_view_health"="Healthy";
+"detail_view_temperature"= "Temperature";
+"detail_view_cycle"= "Cycle";
+
+"curve_not_enough_data"="Not Enough Data";
+
+"device_info_model"="Device Model";
+"device_info_system_version"="Operating System";
+"device_info_name"="Device Name";
+
+"device_info_serial"="Serial";
+"device_info_max_capacity"="Max Capacity";
+"device_info_current_capacity"="Current Capacity";
+"device_info_amperage"="Amperage";
+"device_info_voltage"="Voltage";
+"device_info_bootVoltage"="Boot Voltage";
+
+
+"device_info_wifi_mac_add"="MAC Address";
+"device_info_wifi_ip_add"="IP Address";
+"device_info_cell_carrier"="Carrier";
+"device_info_cell_ip"="IP Address";
+"device_info_system_boottime"="Boot Up Date";
+"device_info_system_runtime"="Run Time";
+"device_info_system_runtime_format"="%d D %d H %d M";
+"device_info_no_network"="Unavailable";
+"device_info_no_carrier"="Unavailable";
+"device_info_jail_break_title"="Jailbroken";
+"device_info_is_jail_break"="Yes";
+"device_info_is_not_jail_break"="No";
+
+"pull_to_show_more"="Pull up to view detail";
+"push_to_show_less"="Pull down to view outline";
+"release_to_show_more"="Release to view detail";
+"release_to_show_less"="Release to view outline";
+//setting
+
+"setting_view_title"="Settings";
+
+"setting_view_panel"="Toggles settings";
+"setting_view_panel_enabled"="Toggles of Status Bar";
+"setting_view_wee_enabled"="Toggles of NC";
+"setting_view_wee_setting"="Display settings of NC";
+"setting_view_panel_order"="Customize";
+
+"setting_view_charge"="Recharge settings";
+"setting_view_launch_app"="Recharge start autorun ";
+"setting_view_complete_sound"="Recharge finish alert ";
+"setting_view_night_slient"="Do not disturb at night";
+
+"setting_view_disturb_description"="Do not disturb from 23:00 to 7:00,\r\n when recharge is complete.";
+"setting_view_other"="Other settings";
+"setting_view_sound"="Tap sound";
+"setting_view_clear_history"="Delete recharge records";
+"setting_view_eula"="Privacy Statement";
+
+"nc_view_battery_enabled"="Enable Modes";
+"nc_view_multi_enabled"="Enable Multitasking";
+"nc_view_multiline"="Display Style";
+"nc_view_one_line"="Single-Line";
+"nc_view_two_line"="Double-Line";
+
+"custom_button_show"="Toggles shown";
+"custom_button_hide"="Toggles not shown";
+
+//intelligence
+"setting_view_intelligence"="Smart saving";
+"setting_view_intelligence_setting"="Smart saving settings";
+
+"intelligence_setting_segment_lock"="Standby";
+"intelligence_setting_segment_sleep"="Sleep";
+"intelligence_setting_segment_lowbattery"="Low-Power";
+
+"intelligence_setting_auto_background_setting"="Background";
+"intelligence_setting_auto_background"="Enabled auto kill background";
+"intelligence_setting_auto_background_delay"="Delay";
+"intelligence_setting_auto_background_footer"="Smart kill backgroud apps after locked,\r\n Push is not affected. ";
+
+"intelligence_setting_auto_3g_setting"="Network";
+"intelligence_setting_auto_3g"="Enabled 2G after locked";
+"intelligence_setting_auto_4g"="Enabled 3G after locked";
+"intelligence_setting_auto_3g_delay"="Delay";
+"intelligence_setting_auto_3g_footer"="Use 2G to save power when standby,\r\n and enable 3G after unlocked. ";
+"intelligence_setting_auto_4g_footer"="Use 3G to save power when standby,\r\n and enable 4G/LTE after unlocked. ";
+
+"intelligence_setting_0_min"="Promptly";
+"intelligence_setting_1_min"="1 Min";
+"intelligence_setting_5_min"="5 Mins";
+"intelligence_setting_10_min"="10 Mins";
+"intelligence_setting_30_min"="30 Mins";
+
+"intelligence_setting_low_battery_setting"="Low-power";
+"intelligence_setting_low_battery"="Enabled Low-power saving";
+"intelligence_setting_low_battery_percent"="Battery level";
+"intelligence_setting_low_battery_footer"="Turn off the network when battery low,\r\n Phone and SMS are not affected. ";
+
+"intelligence_setting_sleep_setting"="Sleep";
+"intelligence_setting_sleep"="Enabled Sleep Mode";
+"intelligence_setting_sleep_duration"="Sleep time";
+"intelligence_setting_sleep_out_mode"="Awake change to";
+
+"intelligence_setting_mode_0"="Outdoor";
+"intelligence_setting_mode_1"="Indoor";
+"intelligence_setting_mode_2"="Last State";
+
+"To"="To";
+
+//appdelegate
+"software_name"="BatteryDoctorPro";
+"respiring_msg"="Configure the operating environment, it will be finished after respiring.";
+"daemon_fail_alert"="Detection service is not started,please manual restart your %@,to ensure the normal operation of service,or e-mail to app@ijinshan.com.";
+"daemon_fail_alert_cancel"="OK";
+"daemon_fail_alert_sendfeedback"="Feedback";
+
+
+//
+"clean_history_title"="Delete recharge records";
+"clean_history_msg_body"="Do you really want to delete all recharge records?";
+"alertview_cancel"="Cancel";
+"alertview_ok"="Ok";
+
+//feedback
+"feed_back_body_text"="Thanks for your help, my friends!";
+"feed_back_title"="BatteryDoctorPro %@ - Questions and feedbacks";
+"feed_back_sending"="Email posting";
+"feed_back_canceled"="Mail canceled";
+"feed_back_saved"="Mail saved";
+"feed_back_faild"="Mail failure";
+
+//rank
+"rankview_view_title"="Rank";
+"usage_level"="%d level";
+"usage_min_less"="%d sec";
+"usage_min"="%d min";
+"usage_hour"="%d hr";
+"usage_day"="%d day";
+"usage_second_ago"="%d sec ago";
+"usage_min_ago"="%d min ago";
+"usage_hour_ago"="%d hr ago";
+"usage_day_ago"="%d day ago";
+"usage_mah"="%d mAh";
+"usage_left_title_apprank"="APP Name";
+"usage_right_title_apprank"="Level";
+"rank_24_hours"="   24hours";
+"rank_all_records"="     Usage";
+"rank_count_start"=" LaunchCount";
+"rank_time_starttime"="  LaunchTime";
+
+"rank_uninstall_app_title"="Delete \"%@\"";
+"rank_uninstall_app_body"="Deleting \"%@\" will also delete all of its data.";
+"rank_apple_start_count"="%d times";
+"rank_app_bg_task_flag"="background";
+"rank_close_app"="Close";
+"rank_uninstall_app"="Uninstall";
+
+//clear
+"clean_view_title"="Accelerate";
+"can_used_disk"="Disk used";
+"can_used_memory"="Memory used";
+"used_disk_value"="<font color='%@' size=34>%.1f</font><font color='%@' size=20>%@</font><font color='%@' size=10> %@</font>";
+"used_mem_value"="<font color='%@' size=34>%.1f</font><font color='%@' size=20>%@</font><font color='%@' size=10> %@</font>";
+"used_mem_scan_value"="<font color='#6A6A6A' size=14>Scanning...</font>";
+
+"can_safari_free"="<font color='%@' size=14>可释放浏览器缓存(</font> <font color='%@' size=14>%@</font> <font color='%@' size=14>)</font>";
+"safari_free"="<font color='%@' size=14>已释放浏览器缓存(</font><font color='%@' size=14>%@</font><font color='%@' size=14>)</font>";
+"can_disk_free"="<font color='%@' size=14><b>%@</b></font>";
+"can_disk_free_title"="可释放空间:";
+"disk_free"="<font color='%@' size=14>已释放空间:</font>";
+"can_disk_free_value"="<font color='%@' size=16>%@</font> <font color='%@' size=10>%@</font>";
+"can_mem_free"="<font color='%@' size=14><b>%@</b></font>";
+"can_mem_free_title"="可释放内存:";
+"mem_free"="<font color='%@' size=14>已释放内存:</font>";
+"can_mem_free_value"="<font color='%@' size=16>%@</font> <font color='%@' size=10>%@</font>";
+"can_speed"="<font color='%@' size=14><b>%@</b></font>";
+"speed_free"="已提速:";
+"can_speed_free_title"="可提速:";
+"can_speed_value"="<font color='%@' size=16>%@</font> <font color='%@' size=10>%@</font>";
+"btn_re_clean"="再清理一次";
+"btn_clean"="Shake it";
+
+"scan_item_mem_text"="Memory scanning...";
+"scan_item_mem_end_text"="Scanning finished";
+"clean_item_mem_result"="Memory released: %.0f%@";
+"clean_item_mem_text"="Memory Clearing...";
+"clean_item_mem_end_text"="Memory Cleared";
+"scan_item_mem"="<font color='%@' size=15>%@</font>";
+"scan_item_disk_text"="Temp files scanning...";
+"clean_item_disk_text"="Temp files clearing...";
+"clean_item_disk_result"="Temp files used: %.0f%@";
+"clean_item_disk_end_text"="Temp files Cleared";
+"scan_item_disk"="<font color='%@' size=15>%@</font>";
+"scan_score_format"="<font color='%@' size=48>%.0f</font>";
+"scan_status_text"="Scanning...";
+"scan_status_end_text"="Speed";
+"clean_status_text"="Clearing...";
+"clean_status_end_text"="Speed";
+"scan_status_format"="<font color='%@' size=15>%@</font>";
+"clean_result_text"="<font color='#6A6A6A' size=15>Successed,improve %@.</font>";
+"clean_btntitle_format"="<font color='#6A6A6A' size=16>Speed is too slow,accelerate now.</font>";
+"clean_result_info_format"="<font color='#6A6A6A' size=15>%@, %@</font>";
+
+
