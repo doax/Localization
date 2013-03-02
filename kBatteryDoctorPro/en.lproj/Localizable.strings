@@ -301,7 +301,7 @@
 "rank_uninstall_app"="Uninstall";
 
 ///clear
-"clean_view_title"="Accelerate";
+"clean_view_title"="Optimization";
 "can_used_disk"="Disk used";
 "can_used_memory"="Memory used";
 "used_disk_value"="<font color='%@' size=34>%.1f</font><font color='%@' size=20>%@</font><font color='%@' size=10> %@</font>";
@@ -349,55 +349,55 @@
 //bottom is untranslated for now
 
 //clear
-"clean_view_title"="Acceleration";
+"clean_view_title"="Optimization";
 "can_used_disk"="Junk files:";
-"can_used_memory"="Memory may free:";
+"can_used_memory"="Freeable memory:";
 "clean_used_disk"="Junk files cleared:";
 "clean_used_memory"="Memory cleared:";
 "used_disk_value"="<font color='%@' size=34>%.1f</font><font color='%@' size=20>%@</font><font color='%@' size=10> %@</font>";
 "used_mem_value"="<font color='%@' size=34>%.1f</font><font color='%@' size=20>%@</font><font color='%@' size=10> %@</font>";
 "used_mem_scan_value"="<font color='#6A6A6A' size=12>Scanning...</font>";
 
-"can_safari_free"="<font color='%@' size=14>可释放浏览器缓存(</font> <font color='%@' size=14>%@</font> <font color='%@' size=14>)</font>";
-"safari_free"="<font color='%@' size=14>已释放浏览器缓存(</font><font color='%@' size=14>%@</font><font color='%@' size=14>)</font>";
+"can_safari_free"="<font color='%@' size=14>Clearable browser cache(</font> <font color='%@' size=14>%@</font> <font color='%@' size=14>)</font>"; //可释放浏览器缓存
+"safari_free"="<font color='%@' size=14>Clear browser cache(</font><font color='%@' size=14>%@</font><font color='%@' size=14>)</font>";//已释放浏览器缓存
 "can_disk_free"="<font color='%@' size=14><b>%@</b></font>";
-"can_disk_free_title"="可释放空间:";
-"disk_free"="<font color='%@' size=14>已释放空间:</font>";
+"can_disk_free_title"="Freeable disk space:"; //可释放空间
+"disk_free"="<font color='%@' size=14>Freed disk space:</font>"; //已释放空间
 "can_disk_free_value"="<font color='%@' size=16>%@</font> <font color='%@' size=10>%@</font>";
 "can_mem_free"="<font color='%@' size=14><b>%@</b></font>";
-"can_mem_free_title"="可释放内存:";
-"mem_free"="<font color='%@' size=14>已释放内存:</font>";
+"can_mem_free_title"="Freeable memory:"; //可释放内存
+"mem_free"="<font color='%@' size=14>Freed memory:</font>"; //已释放内存
 "can_mem_free_value"="<font color='%@' size=16>%@</font> <font color='%@' size=10>%@</font>";
 "can_speed"="<font color='%@' size=14><b>%@</b></font>";
-"speed_free"="已提速:";
-"can_speed_free_title"="可提速:";
+"speed_free"="Speed:"; //已提速 ...what
+"can_speed_free_title"="Speed:"; //可提速 again.
 "can_speed_value"="<font color='%@' size=16>%@</font> <font color='%@' size=10>%@</font>";
-"btn_re_clean"="再清理一次";
-"btn_clean"="Accelerate now";
-"btn_rescan"="      Successed";
+"btn_re_clean"="Clean again"; //再清理一次
+"btn_clean"="Optimize now";
+"btn_rescan"="      Succeeded";
 
-"scan_item_mem_text"="正在扫描内存占用...";
-"scan_item_mem_end_text"="内存扫描已完成";
-"clean_item_mem_result"="释放内存: %.0f%@";
-"clean_item_mem_text"="正在清理内存...";
-"clean_item_mem_end_text"="内存清理已完成 ";
+"scan_item_mem_text"="Scanning memory..."; //正在扫描内存占用
+"scan_item_mem_end_text"="Completed memory scan"; //内存扫描已完成
+"clean_item_mem_result"="Freed memory: %.0f%@"; //释放内存
+"clean_item_mem_text"="Freeing memory..."; //正在清理内存
+"clean_item_mem_end_text"="Memory has been freed. "; //内存清理已完成
 "scan_item_mem"="<font color='%@' size=15>%@</font>";      
-"scan_item_disk_text"="正在扫描垃圾文件...";
-"clean_item_disk_text"="正在清理垃圾文件...";
-"clean_item_disk_result"="缓存空间: %.0f%@";
-"clean_item_disk_end_text"="垃圾文件清理完成   ";
+"scan_item_disk_text"="Scanning for junk files..."; //正在扫描垃圾文件
+"clean_item_disk_text"="Cleaning junk files..."; //正在清理垃圾文件
+"clean_item_disk_result"="Cache space: %.0f%@"; //缓存空间 , could use revision.
+"clean_item_disk_end_text"="Junk files cleaned.   "; //垃圾文件清理完成
 "scan_item_disk"="<font color='%@' size=15>%@</font>";
 "scan_score_format"="<font color='%@' size=48>%.0f</font><font color='#6A6A6A' size=15></font>";
-"scan_status_text"="Optimization";
+"scan_status_text"="Scanning";
 "scan_status_end_text"="Score";
 "clean_status_text"="Optimizing";
 "clean_status_end_text"="Score";
 "scan_status_format"="<font color='%@' size=15>%@</font>";
-"clean_result_text"="<font color='#6A6A6A' size=15>Performance improved %@</font>";
-"clean_result_text2"="<font color='#6A6A6A' size=15>iPhone is at it best</font>";
-"clean_btntitle_format"="<font color='#6A6A6A' size=16>The speed is slow,accelerate now.</font>";
-"clean_btntitle_noneed_format"="<font color='#6A6A6A' size=16>iPhone is at it best</font>";
-"clean_result_info_format"="<font color='#6A6A6A' size=15>本次共%@, %@</font>";
+"clean_result_text"="<font color='#6A6A6A' size=15>Performance improved by %@</font>";
+"clean_result_text2"="<font color='#6A6A6A' size=15>iDevice is at it best</font>"; //iPhones, iPads, iPod touches, etc.
+"clean_btntitle_format"="<font color='#6A6A6A' size=16>Your device is slow, optimize now?</font>"; //is this meant to be a question?
+"clean_btntitle_noneed_format"="<font color='#6A6A6A' size=16>iDevice is at it best.</font>";
+"clean_result_info_format"="<font color='#6A6A6A' size=15>Total%@, %@</font>"; //本次共
 "scan_item_mem_format"="<font color='#6A6A6A' size=15>%@</font>";
 "scan_items_num_format"="<font color='#6A6A6A' size=48>%@</font><font color='#6A6A6A' size=15></font>";
 "scan_items_num999_format"="<font color='#6A6A6A' size=43>%@</font><font color='#6A6A6A' size=15></font>";
@@ -406,10 +406,8 @@
 "clean_mem_result_format"="<font color='#6A6A6A' size=20>%.1f</font><font color='#6A6A6A' size=12> %@</font>";
 "clean_cache_result_format"="<font color='#6A6A6A' size=20>%d</font><font color='#6A6A6A' size=11> Files</font>";
 "scan_item_cache_format"="%@";
-"scan_memory_item"="Memory scanning: %@";
-"scan_cache_item"="Junk file scanning: %@";
-"clean_memory_item"="Memory clearing: %@";
-"clean_cache_item"="Junk file clearing: %@";
-"tip_for_scan_finished_item"="<font color='#6A6A6A' size=16>%d can be optimized,The speed is slow.</font>";
-
-
+"scan_memory_item"="Scanning memory: %@";
+"scan_cache_item"="Cleaning junk files: %@";
+"clean_memory_item"="Clearing memory: %@";
+"clean_cache_item"="Clearing junk files: %@";
+"tip_for_scan_finished_item"="<font color='#6A6A6A' size=16>Performance can be optimized by %d.</font>";
