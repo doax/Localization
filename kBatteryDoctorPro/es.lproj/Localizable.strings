@@ -329,25 +329,25 @@
 "btn_re_clean"="再清理一次";
 "btn_clean"="Shake it";
 
-"scan_item_mem_text"="Memory scanning...";
-"scan_item_mem_end_text"="Scanning finished";
-"clean_item_mem_result"="Memory released: %.0f%@";
-"clean_item_mem_text"="Memory Clearing...";
-"clean_item_mem_end_text"="Memory Cleared";
+"scan_item_mem_text"="Escaneando memoria...";
+"scan_item_mem_end_text"="Escaneo finalizado";
+"clean_item_mem_result"="Memoria liberada: %.0f%@";
+"clean_item_mem_text"="Limpiando memoria...";
+"clean_item_mem_end_text"="Memoria limpiada";
 "scan_item_mem"="<font color='%@' size=15>%@</font>";
-"scan_item_disk_text"="Temp files scanning...";
-"clean_item_disk_text"="Temp files clearing...";
-"clean_item_disk_result"="Temp files used: %.0f%@";
-"clean_item_disk_end_text"="Temp files Cleared";
+"scan_item_disk_text"="Escaneando temporales...";
+"clean_item_disk_text"="Limpiando temporales...";
+"clean_item_disk_result"="Uso de temporales: %.0f%@";
+"clean_item_disk_end_text"="Temporales limpiados";
 "scan_item_disk"="<font color='%@' size=15>%@</font>";
 "scan_score_format"="<font color='%@' size=48>%.0f</font>";
-"scan_status_text"="Scanning...";
-"scan_status_end_text"="Speed";
-"clean_status_text"="Clearing...";
-"clean_status_end_text"="Speed";
+"scan_status_text"="Escaneando...";
+"scan_status_end_text"="Velocidad";
+"clean_status_text"="Limpiando...";
+"clean_status_end_text"="Velocidad";
 "scan_status_format"="<font color='%@' size=15>%@</font>";
-"clean_result_text"="<font color='#6A6A6A' size=15>Successed,improve %@.</font>";
-"clean_btntitle_format"="<font color='#6A6A6A' size=16>Speed is too slow,accelerate now.</font>";
+"clean_result_text"="<font color='#6A6A6A' size=15>Finalizado, mejora %@.</font>";
+"clean_btntitle_format"="<font color='#6A6A6A' size=16>Velocidad está lenta, acelerar ahora.</font>";
 "clean_result_info_format"="<font color='#6A6A6A' size=15>%@, %@</font>";
 
 //bottom is untranslated for now
