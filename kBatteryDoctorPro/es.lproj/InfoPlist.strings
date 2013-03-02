@@ -1,0 +1,9 @@
+/* 
+   InfoPlist.strings
+   kBatteryDoctor
+
+   Created by plipala on 11-8-1.
+   Copyright 2011 ijinshan. All rights reserved.
+ */
+
+"CFBundleDisplayName"="BatteryDoctor";
