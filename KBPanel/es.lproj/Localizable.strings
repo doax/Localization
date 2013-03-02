@@ -9,7 +9,10 @@
 
  Note from Karen: This is not final. I still need to do further testing to make some of these text strings actually fit in the UI.
 
- The translations are also not of final quality (further revision needs to be done to some lines, using the Chinese translation)  Translated to Spanish by / Traducido al español por Kevin López 
+ The translations are also not of final quality (further revision needs to be done to some lines, using the Chinese translation)
+ 
+ Translated to Spanish by /
+ Traducido al español por Kevin López 
  */
 
 "KBPanelFont"="SegoeWP";
@@ -26,7 +29,28 @@
 
 "KBPanelFreeMemory"="Memoria libre"; //consider switching this term to RAM
 "KBPanelUsedMemory"="Memoria usada";
-"Button_3G"="3G";"Button_4G"="4G";"Button_LTE"="LTE";"Button_Airplane"="Avión";"Button_AutoLock"="Autobloq.";"Button_Backlight"="Brillo";"Button_Bluetooth"="Bluetooth";"Button_ClearBadge"="Limpiar globos";"Button_Data"="Datos";"Button_Flashlight"="Linterna";"Button_HomeButton"="Inicio";"Button_KillBackground"="Matar apps";"Button_Location"="Ubicación";"Button_Mute"="Sonidos";"Button_Reboot"="Reiniciar";"Button_Respring"="Respring";"Button_Rotation"="Orientación";"Button_Shutdown"="Apagar";"Button_SleepButton"="Bloquear";"Button_Uicache"="Arreglar ico.";"Button_VPN"="VPN";"Button_WiFi"="Wi-Fi";
+"Button_3G"="3G";
+"Button_4G"="4G";
+"Button_LTE"="LTE";
+"Button_Airplane"="Avión";
+"Button_AutoLock"="Autobloq.";
+"Button_Backlight"="Brillo";
+"Button_Bluetooth"="Bluetooth";
+"Button_ClearBadge"="Limpiar globos";
+"Button_Data"="Datos";
+"Button_Flashlight"="Linterna";
+"Button_HomeButton"="Inicio";
+"Button_KillBackground"="Matar apps";
+"Button_Location"="Ubicación";
+"Button_Mute"="Sonidos";
+"Button_Reboot"="Reiniciar";
+"Button_Respring"="Respring";
+"Button_Rotation"="Orientación";
+"Button_Shutdown"="Apagar";
+"Button_SleepButton"="Bloquear";
+"Button_Uicache"="Arreglar ico.";
+"Button_VPN"="VPN";
+"Button_WiFi"="Wi-Fi";
 "Button_More"="Más";
 
 
