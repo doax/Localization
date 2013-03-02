@@ -77,7 +77,7 @@
 "panel_title"="Presets";
 
 //Charging
-"charging_view_title"="Charging Status"; //the left-menu has enough space to display this, but the text string still gets cut off for some reason
+"charging_view_title"="Status"; //the left-menu has enough space to display "Charging Status,"" but the text string still gets cut off for some reason. Changed it to just "Status" for now.
 "charging_view_in_statge_1"="High-speed Charging";
 "charging_view_in_statge_2"="Continuation Charging"; //needs revision, "Continuation" charging doesn't make any sense.
 "charging_view_in_statge_3"="Trickle Charging";
