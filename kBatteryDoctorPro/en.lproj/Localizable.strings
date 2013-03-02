@@ -9,7 +9,7 @@
 
   Note from Karen: This is not final. I still need to do further testing to make some of these text strings actually fit in the UI.
 
-  The translations are also not of final quality (further revision needs to be done to some lines)
+  The translations are also not of final quality (further revision needs to be done to some lines, using the Chinese translation)
 */
 
 //Images
@@ -89,7 +89,7 @@
 "charging_view_complete_normal"="You can recharge your battery now."; //"battery is medium" is gramatically incorrect, ended up omitting the whole thing. 
 "charging_view_complete_complete"="The battery is low,\r\n you can now recharge your battery.";
 "charging_view_time_to_complete"="Estimated time until charging completes:";
-"charging_view_complete_and_unplug"="Charging has completed, please disconnect the charger.";
+"charging_view_complete_and_unplug"="Battery is full, please disconnect.";
 "charging_view_statge_1"="High-speed";
 "charging_view_statge_2"="Continuation";
 "charging_view_statge_3"="Trickle";
@@ -176,10 +176,10 @@
 "device_info_is_jail_break"="Yes";
 "device_info_is_not_jail_break"="No"; //Off-topic, but I really don't understand this. Wouldn't you need to jailbreak to install BatteryDoctorPro, anyway?
 
-"pull_to_show_more"="Pull up to view the details";
-"push_to_show_less"="Pull down to view the outline";
-"release_to_show_more"="Release to view the details";
-"release_to_show_less"="Release to view the outline";
+"pull_to_show_more"="Pull up to view details";
+"push_to_show_less"="Pull down to view outline";
+"release_to_show_more"="Release to view details";
+"release_to_show_less"="Release to view outline";
 //setting
 
 "setting_view_title"="Settings";
@@ -288,10 +288,10 @@
 "usage_mah"="%d mAh";
 "usage_left_title_apprank"="App Name";
 "usage_right_title_apprank"="Impact";
-"rank_24_hours"="  24 Hours";
-"rank_all_records"="  Battery Usage";
-"rank_count_start"="  Launch Count";
-"rank_time_starttime"="  Launch Time";
+"rank_24_hours"=" 24 Hours";
+"rank_all_records"=" Usage"; //"Power Usage" or "Battery Usage" would be best, but they don't fit.
+"rank_count_start"=" Launch Count";
+"rank_time_starttime"=" Launch Time";
 
 "rank_uninstall_app_title"="Delete \"%@\"";
 "rank_uninstall_app_body"="Deleting \"%@\" will also delete all of its data.";
