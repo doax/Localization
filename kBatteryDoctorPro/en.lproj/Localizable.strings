@@ -262,7 +262,7 @@
 
 //
 "clean_history_title"="Delete charging history";
-"clean_history_msg_body"="Do you really want to delete your charging history?";
+"clean_history_msg_body"="Do you really want to delete your charging history?"; //The AlertView that pops up should say "No" and "Yes" instead of "Cancel" and "OK"
 "alertview_cancel"="Cancel";
 "alertview_ok"="OK";
 
