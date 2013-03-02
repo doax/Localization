@@ -22,13 +22,13 @@
 
 "PowerModeCustom"="Personalizado ";
 "PowerMode0"="Fuera de casa ";
-"PowerMode1"="Dentro de casa ";
+"PowerMode1"="Encasa ";
 "PowerMode2"="Al dormir ";
 "RemainTime"="%@ horas y %@ minutos restantes";
 "PowerModeChanged"="Modificado";
 
-"KBPanelFreeMemory"="Memoria libre"; //consider switching this term to RAM
-"KBPanelUsedMemory"="Memoria usada";
+"KBPanelFreeMemory"="Mem libre"; //consider switching this term to RAM
+"KBPanelUsedMemory"="Mem usada";
 "Button_3G"="3G";
 "Button_4G"="4G";
 "Button_LTE"="LTE";
@@ -36,7 +36,7 @@
 "Button_AutoLock"="Autobloq.";
 "Button_Backlight"="Brillo";
 "Button_Bluetooth"="Bluetooth";
-"Button_ClearBadge"="Limpiar globos";
+"Button_ClearBadge"="Limp. globos";
 "Button_Data"="Datos";
 "Button_Flashlight"="Linterna";
 "Button_HomeButton"="Inicio";
@@ -104,7 +104,7 @@
 "Uninstall_Alert_Body"="“%@” se desinstalará al reiniciar SpringNoard.";
 
 "ModeSetting"="Editar"; //"Edit Presets" or just "Edit" would probably work better
-"ModeRemainTime"="%@ horas %@ minutos";
+"ModeRemainTime"="%@ h %@ min";
 
 "Intelligence_Into_Percent_Title"=" s después a \"Batería baja\""; //...?
 "Intelligence_Into_Percent_Body"="Datos apagados, Wi-Fi apagada. Teléfono y mensajes todavía se pueden utilizar."; //no context

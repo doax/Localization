@@ -26,30 +26,30 @@
 "Button_4G"="4G";
 "Button_LTE"="LTE";
 "Button_Airplane"="Avión";
-"Button_AutoLock"="Autobloq.";
+"Button_AutoLock"="Autobloqueo";
 "Button_Backlight"="Brillo";
 "Button_Bluetooth"="Bluetooth";
-"Button_ClearBadge"="Limpiar globos";
-"Button_Data"="Datos";
+"Button_ClearBadge"="Limpiar globos de notificaciones";
+"Button_Data"="Datos móviles";
 "Button_Flashlight"="Linterna";
 "Button_HomeButton"="Inicio";
 "Button_KillBackground"="Matar apps";
 "Button_Location"="Ubicación";
 "Button_Mute"="Sonidos";
 "Button_Reboot"="Reiniciar";
-"Button_Respring"="Respring";
+"Button_Respring"="Reiniciar SpringBoard";
 "Button_Rotation"="Orientación";
 "Button_Shutdown"="Apagar";
 "Button_SleepButton"="Bloquear";
-"Button_Uicache"="Arreglar ico.";
+"Button_Uicache"="Arreglar iconos";
 "Button_VPN"="VPN";
 "Button_WiFi"="Wi-Fi";
 
 //Home
 "home_view_title"="BatteryDoctorPro";
-"home_view_title_tabbar"="Preselecciones";
+"home_view_title_tabbar"="Preajustes";
 "home_view_mode_outdoor"="Fuera de casa";
-"home_view_mode_indoor"="Dentro de casa";
+"home_view_mode_indoor"="En casa";
 "home_view_mode_sleep"="Modo alarma";
 "home_view_hour"="horas"; //I'm un-abbreviating most of these where they can fit.
 "home_view_minutes"="minutos"; //"minutes"
@@ -59,16 +59,16 @@
 "navation_app_version"="Versión";
 "navation_bar_more"="Otros";
 "navation_bar_control"="General"; //"List" makes no sense here.
-"home_view_change_mode"="Preselección %@ "; //you can do some restructuring of this sentence, though it's fine as-is for now
-"home_view_change_airplane_on"=" habilitada. Modo avión está encendido. Teléfono y Mensajes no pueden ser usados.";
-"home_view_change_airplane_off"=" habilitada. Modo avión está apagado. Teléfono y Mensajes ya pueden ser usados."; //Need to change these 2 lines to comply with the new usage of "preset"
-"home_view_change_data_on"=" habilitada. Los datos móviles han sido activados.";
-"home_view_change_data_off"=" habilitada. Los datos móviles han sido desactivados.";
-"home_view_change_wifi_on"=" habilitada. Wi-Fi ha sido activado.";
-"home_view_change_wifi_off"=" habilitada. Wi-Fi ha sido desactivado.";
+"home_view_change_mode"="Preajuste %@ activado. "; //you can do some restructuring of this sentence, though it's fine as-is for now
+"home_view_change_airplane_on"="El modo avión está encendido. Teléfono y Mensajes no pueden ser usados.";
+"home_view_change_airplane_off"="El modo avión está apagado. Teléfono y Mensajes ya pueden ser usados."; //Need to change these 2 lines to comply with the new usage of "preset"
+"home_view_change_data_on"="Los datos móviles han sido activados. ";
+"home_view_change_data_off"="Los datos móviles han sido desactivados. ";
+"home_view_change_wifi_on"="Wi-Fi ha sido activado. ";
+"home_view_change_wifi_off"="Wi-Fi ha sido desactivado. ";
 "home_view_complete_no_need"="No se necesita recargar.";
-"home_view_complete_normal"="Puedes recargar un poco."; //needs revision, "partially recharge" and "fully recharge" don't make sense. I'll look into the original chinese text later, actually. (why didn't I think of that before)
-"home_view_complete_complete"="Puedes recargar hasta el 100%."; //needs revision
+"home_view_complete_normal"="Puedes recargar un poco ahora."; //needs revision, "partially recharge" and "fully recharge" don't make sense. I'll look into the original chinese text later, actually. (why didn't I think of that before)
+"home_view_complete_complete"="Puedes recargar completamente ahora."; //needs revision
 "home_view_mode_changed"="Modificado";
 "home_quick_button_intelligence"="Ahorro"; //could use revision to "energy saving" or similar
 "home_quick_button_clean"="Optimizar"; //better word than "Accelerate"
@@ -76,19 +76,19 @@
 //Panel
 "panel_remain_time_minutes"="Vida estimada: %d minutos"; //needs line breaks here
 "panel_remain_time_minutes_and_hour"="Vida estimada: %d horas y %02d minutos";
-"panel_apply_button"="Aplicar preselección";
-"panel_apply_noneed"="Preselección actual";
-"panel_title"="Preselecciones";
+"panel_apply_button"="Aplicar preajuste";
+"panel_apply_noneed"="Preajuste actual";
+"panel_title"="Preajustes";
 
 //Charging
-"charging_view_title"="Estado"; //the left-menu has enough space to display "Charging Status,"" but the text string still gets cut off for some reason. Changed it to just "Status" for now.
+"charging_view_title"="Carga"; //the left-menu has enough space to display "Charging Status,"" but the text string still gets cut off for some reason. Changed it to just "Status" for now.
 "charging_view_in_statge_1"="Carga rápida";
 "charging_view_in_statge_2"="Carga continua"; //needs revision, "Continuation" charging doesn't make any sense.
 "charging_view_in_statge_3"="Carga gradual";
-"charging_view_time_hour_and_minutes"="%d horas y %02d minutos para carga completa"; //using "minutes left" also works
-"charging_view_time_minutes"="%d minutos para carga completa";
-"charging_view_time_to_charge"="%@ para carga completa";
-"charging_view_charging_remain_time"="%@ para carga completa";
+"charging_view_time_hour_and_minutes"="%d horas y %02d minutos restantes"; //using "minutes left" also works
+"charging_view_time_minutes"="%d minutos restantes";
+"charging_view_time_to_charge"="%@ restantes";
+"charging_view_charging_remain_time"="%@ restantes";
 "charging_view_complete_no_need"="La batería está llena,\r\n no necesitas recargar.";
 "charging_view_complete_normal"="Ahora puedes recargar."; //"battery is medium" is gramatically incorrect, ended up omitting the whole thing. 
 "charging_view_complete_complete"="La batería está baja,\r\n ahora puedes recargar.";
@@ -144,9 +144,9 @@
 "detail_view_disk_usage"="Usado";
 "detail_view_disk_usage_detail"="%4.1f%% / %4.1fGB usado";
 "detail_view_disk_free"="Disponible";
-"detail_view_disk_free_detail"="%4.1f%% / %4.1fGB disponible";
+"detail_view_disk_free_detail"="%4.1f%% / %4.1fGB libre";
 
-"detail_view_last_days"="Últimos    día(s)"; //the grammar issue with the number 1 is unavoidable, no matter what you do.
+"detail_view_last_days"="Últimos    día(s)"; //the grammar issue with the number 1 is unavoidable, no matter what you do. 
 "detail_view_last"="Último";
 "detail_view_health_mah"="Salud (mAh) "; //"Healthy" isn't correct, needs revision from chinese
 "detail_view_health"="Salud"; //needs revision from chinese
@@ -170,7 +170,7 @@
 "device_info_wifi_mac_add"="Dirección MAC";
 "device_info_wifi_ip_add"="Dirección IP";
 "device_info_cell_carrier"="Operador telefónico";
-"device_info_cell_ip"="Dirección IP (datos móviles)";
+"device_info_cell_ip"="Dirección IP";
 "device_info_system_boottime"="Fecha del último reinicio";
 "device_info_system_runtime"="Tiempo en uso";
 "device_info_system_runtime_format"="%d días %d horas %d minutos";
@@ -180,8 +180,8 @@
 "device_info_is_jail_break"="Sí";
 "device_info_is_not_jail_break"="No"; //Off-topic, but I really don't understand this. Wouldn't you need to jailbreak to install BatteryDoctorPro, anyway?
 
-"pull_to_show_more"="Sigue tirando arriba para ver detalles";
-"push_to_show_less"="Sigue tirando abajo para ver info. general";
+"pull_to_show_more"="Sigue tirando hacia arriba para ver detalles";
+"push_to_show_less"="Sigue tirando hacia abajo para ver info. general";
 "release_to_show_more"="Suelta para ver detalles";
 "release_to_show_less"="Suelta para ver información general";
 //setting
@@ -189,43 +189,43 @@
 "setting_view_title"="Ajustes";
 
 "setting_view_panel"="Botones de ajuste";
-"setting_view_panel_enabled"="Bandeja de opciones en la barra de estado";
+"setting_view_panel_enabled"="Bandeja en la barra de estado";
 "setting_view_wee_enabled"="Widget del Centro de notificaciones";
-"setting_view_wee_setting"="Opciones del widget del Centro de notificaciones";
-"setting_view_panel_order"="Personalizar botones de ajuste";
+"setting_view_wee_setting"="Opciones widget del Centro de notificaciones";
+"setting_view_panel_order"="Personalizar botones";
 
 "setting_view_charge"="Ajustes de carga";
 "setting_view_launch_app"="Abrir BDP al enchufar"; //text string too long, needs revision (abbreviate to BDP?)
 "setting_view_complete_sound"="Avisar al cargar completamente "; //curious as to what this actually is, as it's never seemed to work for me?
 "setting_view_night_slient"="No molestar a la noche";
 
-"setting_view_disturb_description"="No te molestaré si la carga se completa \r\n entre las 23:00 y las 7:00.";
+"setting_view_disturb_description"="No avisará si la carga se completa \r\n entre las 23:00 y las 7:00.";
 "setting_view_other"="Otros ajustes";
 "setting_view_sound"="Sonido al tocar"; //never saw this.
 "setting_view_clear_history"="Eliminar historial de carga";
 "setting_view_eula"="Declaración de privacidas";
 
-"nc_view_battery_enabled"="Mostrar cambiador de preselecciones";
+"nc_view_battery_enabled"="Mostrar cambiador de preajustes";
 "nc_view_multi_enabled"="Mostrar tareas en curso";
 "nc_view_multiline"="Estilo de widget";
 "nc_view_one_line"="Una línea";
 "nc_view_two_line"="Dos líneas";
 
-"custom_button_show"="Ajustes mostrados";
-"custom_button_hide"="Ajustes no mostrados";
+"custom_button_show"="Ajustes visibles";
+"custom_button_hide"="Ajustes ocultos";
 
 //intelligence
 "setting_view_intelligence"="Ahorro inteligente";
-"setting_view_intelligence_setting"="Ajustes de ahorro inteligente";
+"setting_view_intelligence_setting"="Ajustes ahorro inteligente";
 
 "intelligence_setting_segment_lock"="Espera";
 "intelligence_setting_segment_sleep"="Al dormir";
 "intelligence_setting_segment_lowbattery"="Batería baja";
 
 "intelligence_setting_auto_background_setting"="Procesos en segundo plano";
-"intelligence_setting_auto_background"="Matar procesos en segundo plano automáticamente";
+"intelligence_setting_auto_background"="Matar procesos en segundo plano";
 "intelligence_setting_auto_background_delay"="Tiempo de espera"; //needs revision
-"intelligence_setting_auto_background_footer"="Matar procesos en segundo plano automáticamente al suspender,\r\n no afecta a las notificaciones push. ";
+"intelligence_setting_auto_background_footer"="Matar procesos en 2° plano automáticamente al bloquear,\r\n no afecta a las notificaciones push. ";
 
 "intelligence_setting_auto_3g_setting"="Red";
 "intelligence_setting_auto_3g"="Rebajar a 2G (EDGE) al bloquear";
@@ -310,7 +310,7 @@
 "can_used_memory"="Memoria";
 "used_disk_value"="<font color='%@' size=34>%.1f</font><font color='%@' size=20>%@</font><font color='%@' size=10> %@</font>";
 "used_mem_value"="<font color='%@' size=34>%.1f</font><font color='%@' size=20>%@</font><font color='%@' size=10> %@</font>";
-"used_mem_scan_value"="<font color='#6A6A6A' size=14>Escaneando...</font>";
+"used_mem_scan_value"="<font color='#6A6A6A' size=14>Buscando...</font>";
 
 "can_safari_free"="<font color='%@' size=14>可释放浏览器缓存(</font> <font color='%@' size=14>%@</font> <font color='%@' size=14>)</font>";
 "safari_free"="<font color='%@' size=14>已释放浏览器缓存(</font><font color='%@' size=14>%@</font><font color='%@' size=14>)</font>";
@@ -329,19 +329,19 @@
 "btn_re_clean"="再清理一次";
 "btn_clean"="Shake it";
 
-"scan_item_mem_text"="Escaneando memoria...";
+"scan_item_mem_text"="Buscando memoria...";
 "scan_item_mem_end_text"="Escaneo finalizado";
 "clean_item_mem_result"="Memoria liberada: %.0f%@";
 "clean_item_mem_text"="Limpiando memoria...";
 "clean_item_mem_end_text"="Memoria limpiada";
 "scan_item_mem"="<font color='%@' size=15>%@</font>";
-"scan_item_disk_text"="Escaneando temporales...";
+"scan_item_disk_text"="Buscando temporales...";
 "clean_item_disk_text"="Limpiando temporales...";
 "clean_item_disk_result"="Uso de temporales: %.0f%@";
 "clean_item_disk_end_text"="Temporales limpiados";
 "scan_item_disk"="<font color='%@' size=15>%@</font>";
 "scan_score_format"="<font color='%@' size=48>%.0f</font>";
-"scan_status_text"="Escaneando...";
+"scan_status_text"="Buscando...";
 "scan_status_end_text"="Velocidad";
 "clean_status_text"="Limpiando...";
 "clean_status_end_text"="Velocidad";
@@ -353,65 +353,65 @@
 //bottom is untranslated for now
 
 //clear
-"clean_view_title"="Optimization";
-"can_used_disk"="Junk files:";
-"can_used_memory"="Freeable memory:";
-"clean_used_disk"="Junk files cleared:";
-"clean_used_memory"="Memory cleared:";
+"clean_view_title"="Optimización";
+"can_used_disk"="Basura:";
+"can_used_memory"="Memoria a liberar:";
+"clean_used_disk"="Basura limpiada:";
+"clean_used_memory"="Memoria cleared:";
 "used_disk_value"="<font color='%@' size=34>%.1f</font><font color='%@' size=20>%@</font><font color='%@' size=10> %@</font>";
 "used_mem_value"="<font color='%@' size=34>%.1f</font><font color='%@' size=20>%@</font><font color='%@' size=10> %@</font>";
-"used_mem_scan_value"="<font color='#6A6A6A' size=12>Scanning...</font>";
+"used_mem_scan_value"="<font color='#6A6A6A' size=12>Buscando...</font>";
 
-"can_safari_free"="<font color='%@' size=14>Clearable browser cache(</font> <font color='%@' size=14>%@</font> <font color='%@' size=14>)</font>"; //可释放浏览器缓存
-"safari_free"="<font color='%@' size=14>Clear browser cache(</font><font color='%@' size=14>%@</font><font color='%@' size=14>)</font>";//已释放浏览器缓存
+"can_safari_free"="<font color='%@' size=14>Caché de Safari(</font> <font color='%@' size=14>%@</font> <font color='%@' size=14>)</font>"; //可释放浏览器缓存
+"safari_free"="<font color='%@' size=14>Limpiar caché(</font><font color='%@' size=14>%@</font><font color='%@' size=14>)</font>";//已释放浏览器缓存
 "can_disk_free"="<font color='%@' size=14><b>%@</b></font>";
-"can_disk_free_title"="Freeable disk space:"; //可释放空间
-"disk_free"="<font color='%@' size=14>Freed disk space:</font>"; //已释放空间
+"can_disk_free_title"="Espacio a liberar:"; //可释放空间
+"disk_free"="<font color='%@' size=14>Espacio liberado:</font>"; //已释放空间
 "can_disk_free_value"="<font color='%@' size=16>%@</font> <font color='%@' size=10>%@</font>";
 "can_mem_free"="<font color='%@' size=14><b>%@</b></font>";
-"can_mem_free_title"="Freeable memory:"; //可释放内存
-"mem_free"="<font color='%@' size=14>Freed memory:</font>"; //已释放内存
+"can_mem_free_title"="Memoria a liberar:"; //可释放内存
+"mem_free"="<font color='%@' size=14>Memoria liberada:</font>"; //已释放内存
 "can_mem_free_value"="<font color='%@' size=16>%@</font> <font color='%@' size=10>%@</font>";
 "can_speed"="<font color='%@' size=14><b>%@</b></font>";
-"speed_free"="Speed:"; //已提速 ...what
-"can_speed_free_title"="Speed:"; //可提速 again.
+"speed_free"="Velocidad:"; //已提速 ...what
+"can_speed_free_title"="Velocidad:"; //可提速 again.
 "can_speed_value"="<font color='%@' size=16>%@</font> <font color='%@' size=10>%@</font>";
-"btn_re_clean"="Clean again"; //再清理一次
-"btn_clean"="Optimize now";
-"btn_rescan"="      Succeeded";
+"btn_re_clean"="Limpiar ahora"; //再清理一次
+"btn_clean"="Optimizar ahora";
+"btn_rescan"="      Éxito";
 
-"scan_item_mem_text"="Scanning memory..."; //正在扫描内存占用
-"scan_item_mem_end_text"="Completed memory scan"; //内存扫描已完成
-"clean_item_mem_result"="Freed memory: %.0f%@"; //释放内存
-"clean_item_mem_text"="Freeing memory..."; //正在清理内存
-"clean_item_mem_end_text"="Memory has been freed. "; //内存清理已完成
+"scan_item_mem_text"="Escaneando memoria..."; //正在扫描内存占用
+"scan_item_mem_end_text"="Escaneo de memoria completo"; //内存扫描已完成
+"clean_item_mem_result"="Memoria liberada: %.0f%@"; //释放内存
+"clean_item_mem_text"="Liberando memoria..."; //正在清理内存
+"clean_item_mem_end_text"="Memoria liberada. "; //内存清理已完成
 "scan_item_mem"="<font color='%@' size=15>%@</font>";      
-"scan_item_disk_text"="Scanning for junk files..."; //正在扫描垃圾文件
-"clean_item_disk_text"="Cleaning junk files..."; //正在清理垃圾文件
-"clean_item_disk_result"="Cache space: %.0f%@"; //缓存空间 , could use revision.
-"clean_item_disk_end_text"="Junk files cleaned.   "; //垃圾文件清理完成
+"scan_item_disk_text"="Buscando..."; //正在扫描垃圾文件
+"clean_item_disk_text"="Limpiando basura..."; //正在清理垃圾文件
+"clean_item_disk_result"="Espacio en caché: %.0f%@"; //缓存空间 , could use revision.
+"clean_item_disk_end_text"="Basura limpiada.   "; //垃圾文件清理完成
 "scan_item_disk"="<font color='%@' size=15>%@</font>";
 "scan_score_format"="<font color='%@' size=48>%.0f</font><font color='#6A6A6A' size=15></font>";
-"scan_status_text"="Scanning";
-"scan_status_end_text"="Score";
-"clean_status_text"="Optimizing";
-"clean_status_end_text"="Score";
+"scan_status_text"="Buscando...";
+"scan_status_end_text"="Puntaje";
+"clean_status_text"="Optimizando...";
+"clean_status_end_text"="Puntaje";
 "scan_status_format"="<font color='%@' size=15>%@</font>";
-"clean_result_text"="<font color='#6A6A6A' size=15>Performance improved by %@</font>";
-"clean_result_text2"="<font color='#6A6A6A' size=15>iDevice is at it best</font>"; //iPhones, iPads, iPod touches, etc.
-"clean_btntitle_format"="<font color='#6A6A6A' size=16>Your device is slow, optimize now?</font>"; //is this meant to be a question?
-"clean_btntitle_noneed_format"="<font color='#6A6A6A' size=16>iDevice is at it best.</font>";
+"clean_result_text"="<font color='#6A6A6A' size=15>Rendimiento mejorado al %@</font>";
+"clean_result_text2"="<font color='#6A6A6A' size=15>Tu dispositivo está al máximo</font>"; //iPhones, iPads, iPod touches, etc.
+"clean_btntitle_format"="<font color='#6A6A6A' size=16>Tu dispositivo está lento, ¿optimizar ahora?</font>"; //is this meant to be a question?
+"clean_btntitle_noneed_format"="<font color='#6A6A6A' size=16>Tu dispositivo está al máximo.</font>";
 "clean_result_info_format"="<font color='#6A6A6A' size=15>Total%@, %@</font>"; //本次共
 "scan_item_mem_format"="<font color='#6A6A6A' size=15>%@</font>";
 "scan_items_num_format"="<font color='#6A6A6A' size=48>%@</font><font color='#6A6A6A' size=15></font>";
 "scan_items_num999_format"="<font color='#6A6A6A' size=43>%@</font><font color='#6A6A6A' size=15></font>";
 "scan_mem_result_format"="<font color='#6A6A6A' size=20>%.1f</font><font color='#6A6A6A' size=12> %@</font>";
-"scan_cache_result_format"="<font color='#6A6A6A' size=20>%d</font><font color='#6A6A6A' size=11> Files</font>";
+"scan_cache_result_format"="<font color='#6A6A6A' size=20>%d</font><font color='#6A6A6A' size=11> archivos</font>";
 "clean_mem_result_format"="<font color='#6A6A6A' size=20>%.1f</font><font color='#6A6A6A' size=12> %@</font>";
-"clean_cache_result_format"="<font color='#6A6A6A' size=20>%d</font><font color='#6A6A6A' size=11> Files</font>";
+"clean_cache_result_format"="<font color='#6A6A6A' size=20>%d</font><font color='#6A6A6A' size=11> archivos</font>";
 "scan_item_cache_format"="%@";
-"scan_memory_item"="Scanning memory: %@";
-"scan_cache_item"="Cleaning junk files: %@";
-"clean_memory_item"="Clearing memory: %@";
-"clean_cache_item"="Clearing junk files: %@";
-"tip_for_scan_finished_item"="<font color='#6A6A6A' size=16>Performance can be optimized by %d.</font>";
+"scan_memory_item"="Buscando memoria: %@";
+"scan_cache_item"="Buscando basura: %@";
+"clean_memory_item"="Limpiando memoria: %@";
+"clean_cache_item"="Limpiando basura: %@";
+"tip_for_scan_finished_item"="<font color='#6A6A6A' size=16>El rendimiento puede ser optimizado al %d.</font>";
