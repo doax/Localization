@@ -49,8 +49,8 @@
 "home_view_mode_sleep"="Alarm";
 "home_view_hour"="hours"; //I'm un-abbreviating most of these where they can fit.
 "home_view_minutes"="minutes"; //"minutes"
-"home_view_remained"="Estimated Battery Life";
-"home_view_battery_status"="Status %d%%   %@";
+"home_view_remained"="remaining";
+"home_view_battery_status"="Status: %d%%   %@";
 "navation_feedback"="Feedback";
 "navation_app_version"="Version";
 "navation_bar_more"="Other";
@@ -112,7 +112,7 @@
 "cal_title_datetime_format"="MM yyyy"; //this is USA time scheme
 
 "history_tableview_header_datetime_format"="EEE, MM-dd-yyyy"; //USA scheme
-"history_good_charge_tip_msg"="This is when you have charged your device from at least 20% capacity, and charged through all three phases. Do this once a month to extend the life of your battery.";
+"history_good_charge_tip_msg"="This is when you have charged your device from at least 20% capacity, and charged through all three phases. Do this once a month to extend the life of your battery."; //these 3 lines need a longer timeout for the UI popup bubble
 "history_normal_charge_tip_msg"="This is when you have charged the device from above 20% capacity. You may do this whenever it is convenient, as Partial Cycles still prolong the battery's lifespan."; //needs revision
 "history_bad_charge_tip_msg"="Please limit the charging time to 6 hours per charge. Please unplug the power when the battery is full to avoid overcharging.";
 
@@ -147,7 +147,7 @@
 "detail_view_health_mah"="Healthy (mAh) "; //"Healthy" isn't correct, needs revision from chinese
 "detail_view_health"="Healthy"; //needs revision from chinese
 "detail_view_temperature"= "Temperature";
-"detail_view_cycle"= "Charge Cycles";
+"detail_view_cycle"= "Cycles"; //"Charge Cycles" would be better, but the text string got too long.
 
 "curve_not_enough_data"="Not enough data has been collected.";
 
@@ -191,7 +191,7 @@
 "setting_view_panel_order"="Customize Toggles";
 
 "setting_view_charge"="Charging Settings";
-"setting_view_launch_app"="Run BatteryDoctorPro when plugged in"; //text string too long, needs revision (abbreviate to BDP?)
+"setting_view_launch_app"="Open BDP when plugged in"; //text string too long, needs revision (abbreviate to BDP?)
 "setting_view_complete_sound"="Alert when charging has completed "; //curious as to what this actually is, as it's never seemed to work for me?
 "setting_view_night_slient"="Do not disturb at night";
 
