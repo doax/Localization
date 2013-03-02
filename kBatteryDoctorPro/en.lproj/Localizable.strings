@@ -138,9 +138,9 @@
 
 "detail_view_disk"="Storage";
 "detail_view_disk_usage"="Used";
-"detail_view_disk_usage_detail"="%4.1f%% %4.1fGB used";
+"detail_view_disk_usage_detail"="%4.1f%% / %4.1fGB used";
 "detail_view_disk_free"="Available";
-"detail_view_disk_free_detail"="%4.1f%% %4.1fGB available";
+"detail_view_disk_free_detail"="%4.1f%% / %4.1fGB available";
 
 "detail_view_last_days"="Last    Days"; //the grammar issue with the number 1 is unavoidable, no matter what you do.
 "detail_view_last"="Last";
@@ -152,7 +152,7 @@
 "curve_not_enough_data"="Not enough data has been collected.";
 
 "device_info_model"="Device Model";
-"device_info_system_version"="Operating System";
+"device_info_system_version"="iOS Version";
 "device_info_name"="Device Name";
 
 "device_info_serial"="Serial";
