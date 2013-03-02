@@ -6,6 +6,10 @@
   Copyright (c) 2012年 iJinShan. All rights reserved.
 
   Modified by Karen Tsai (angelXwind)
+
+  Note from Karen: This is not final. I still need to do further testing to make some of these text strings actually fit in the UI.
+
+  The translations are also not of final quality (further revision needs to be done to some lines)
 */
 
 //Images
@@ -40,59 +44,59 @@
 //Home
 "home_view_title"="BatteryDoctorPro";
 "home_view_title_tabbar"="Presets";
-"home_view_mode_outdoor"="Outdoor";
-"home_view_mode_indoor"="Indoor";
+"home_view_mode_outdoor"="Outdoors";
+"home_view_mode_indoor"="Indoors";
 "home_view_mode_sleep"="Alarm";
-"home_view_hour"="hr"; //"hours"
-"home_view_minutes"="min"; //"minutes"
-"home_view_remained"="Battery Life";
+"home_view_hour"="hours"; //I'm un-abbreviating most of these where they can fit.
+"home_view_minutes"="minutes"; //"minutes"
+"home_view_remained"="Estimated Battery Life";
 "home_view_battery_status"="Status %d%%   %@";
 "navation_feedback"="Feedback";
 "navation_app_version"="Version";
 "navation_bar_more"="Other";
-"navation_bar_control"="List";
-"home_view_change_mode"="Enabled %@";
-"home_view_change_airplane_on"=" mode has been set. Airplane Mode is now turned on, so Phone and Messages cannot be used.";
-"home_view_change_airplane_off"=" mode has been set. Airplane Mode is now turned off, so Phone and Messages can now be used."; //Need to change these 2 lines to comply with the new usage of "preset"
-"home_view_change_data_on"=" mode has been set. Data has now been turned on.";
-"home_view_change_data_off"=" mode has been set. Data has now been turned off.";
-"home_view_change_wifi_on"=" mode has been set. Wi-Fi has now been turned on.";
-"home_view_change_wifi_off"=" mode has been set. Wi-Fi has now been turned off.";
+"navation_bar_control"="General"; //"List" makes no sense here.
+"home_view_change_mode"="Enabled %@"; //you can do some restructuring of this sentence, though it's fine as-is for now
+"home_view_change_airplane_on"=" preset. Airplane Mode is now turned on, so Phone and Messages cannot be used.";
+"home_view_change_airplane_off"=" preset. Airplane Mode is now turned off, so Phone and Messages can now be used."; //Need to change these 2 lines to comply with the new usage of "preset"
+"home_view_change_data_on"=" preset. Data has now been turned on.";
+"home_view_change_data_off"=" preset. Data has now been turned off.";
+"home_view_change_wifi_on"=" preset. Wi-Fi has now been turned on.";
+"home_view_change_wifi_off"=" preset. Wi-Fi has now been turned off.";
 "home_view_complete_no_need"="No recharge is necessary.";
-"home_view_complete_normal"="You can partially recharge now."; //needs revision
+"home_view_complete_normal"="You can partially recharge now."; //needs revision, "partially recharge" and "fully recharge" don't make sense. I'll look into the original chinese text later, actually. (why didn't I think of that before)
 "home_view_complete_complete"="You can fully recharge now."; //needs revision
-"home_view_mode_changed"="modified";
+"home_view_mode_changed"="Modified";
 "home_quick_button_intelligence"="Smart"; //could use revision to "energy saving" or similar
-"home_quick_button_clean"="Accelerate"; //what
+"home_quick_button_clean"="Optimize"; //better word than "Accelerate"
 
 //Panel
-"panel_remain_time_minutes"="Estimated battery life: %d minutes";
+"panel_remain_time_minutes"="Estimated battery life: %d minutes"; //needs line breaks here
 "panel_remain_time_minutes_and_hour"="Estimated battery life: %d hours and %02d minutes";
 "panel_apply_button"="Apply Preset";
 "panel_apply_noneed"="Current Preset";
 "panel_title"="Presets";
 
 //Charging
-"charging_view_title"="Charging Status";
-"charging_view_in_statge_1"="High-speed charging";
-"charging_view_in_statge_2"="Continuation charging"; //needs revision
+"charging_view_title"="Charging Status"; //the left-menu has enough space to display this, but the text string still gets cut off for some reason
+"charging_view_in_statge_1"="High-speed Charging";
+"charging_view_in_statge_2"="Continuation Charging"; //needs revision, "Continuation" charging doesn't make any sense.
 "charging_view_in_statge_3"="Trickle Charging";
 "charging_view_time_hour_and_minutes"="%d hours and %02d minutes until charging completes"; //using "minutes left" also works
 "charging_view_time_minutes"="%d minutes until charging completes";
 "charging_view_time_to_charge"="%@ until charging completes";
 "charging_view_charging_remain_time"="%@ until charging completes";
 "charging_view_complete_no_need"="The battery is full,\r\n no recharge is necessary.";
-"charging_view_complete_normal"="The battery is medium,\r\n you can partially recharge your battery."; //"battery is medium" is gramatically incorrect
-"charging_view_complete_complete"="The battery is low,\r\n you can fully recharge your battery.";
+"charging_view_complete_normal"="You can recharge your battery now."; //"battery is medium" is gramatically incorrect, ended up omitting the whole thing. 
+"charging_view_complete_complete"="The battery is low,\r\n you can now recharge your battery.";
 "charging_view_time_to_complete"="Estimated time until charging completes:";
 "charging_view_complete_and_unplug"="Charging has completed, please disconnect the charger.";
 "charging_view_statge_1"="High-speed";
 "charging_view_statge_2"="Continuation";
 "charging_view_statge_3"="Trickle";
 
-"charging_view_state_1_description"="High-speed Charging: Recharges the battery up to 80% of capacity at the fastest speed possible. You must continue charging through the Continuation Charging phase.";
-"charging_view_state_2_description"="Continuation Charging: Recharges the battery at a slower speed when battery is nearly full to ensure that it is 100% full. You must continue charging through the Trickle Charging phase.";
-"charging_view_state_3_description"="Trickle Charging: Recharges the battery to full with a trickle current. This prolong the life of the battery.";
+"charging_view_state_1_description"="High-speed Charging: Charges the battery up to 80% capacity at the fastest speed possible."; //"You must continue charging..." isn't... really correct. I'll make further revision later from the Chinese version.
+"charging_view_state_2_description"="Continuation Charging: Charges the battery at a slower speed when it is nearly full to ensure completion."; //again, the word "Continuation"
+"charging_view_state_3_description"="Trickle Charging: Charges the battery to full capacity using a trickle current. This prolongs the life of the battery.";
 
 //history
 "history_view_title"="History";
@@ -107,10 +111,10 @@
 
 "cal_title_datetime_format"="MM yyyy"; //this is USA time scheme
 
-"history_tableview_header_datetime_format"="EEE, MM-dd-yyyy"; //USA sceheme
-"history_good_charge_tip_msg"="This is when you have charged your device from at least 20% capacity, and gone through all three phases. Do this once a month to extend the life of your battery.";
-"history_normal_charge_tip_msg"="This is when you normally recharge the battery. You may do this whenever it is convinient, as Partial Cycles still prolong the battery's lifespan.";
-"history_bad_charge_tip_msg"="Please limit the recharging time to 6 hours per charge. Please unplug the power when the battery is full.";
+"history_tableview_header_datetime_format"="EEE, MM-dd-yyyy"; //USA scheme
+"history_good_charge_tip_msg"="This is when you have charged your device from at least 20% capacity, and charged through all three phases. Do this once a month to extend the life of your battery.";
+"history_normal_charge_tip_msg"="This is when you have charged the device from above 20% capacity. You may do this whenever it is convenient, as Partial Cycles still prolong the battery's lifespan."; //needs revision
+"history_bad_charge_tip_msg"="Please limit the charging time to 6 hours per charge. Please unplug the power when the battery is full to avoid overcharging.";
 
 "history_good_charge"="Full Cycle";
 "history_normal_charge"="Partial Cycle";
@@ -134,16 +138,16 @@
 
 "detail_view_disk"="Storage";
 "detail_view_disk_usage"="Used";
-"detail_view_disk_usage_detail"="Usage %4.1f%% %4.1fGB";
+"detail_view_disk_usage_detail"="%4.1f%% %4.1fGB used";
 "detail_view_disk_free"="Available";
-"detail_view_disk_free_detail"="Available %4.1f%% %4.1fGB";
+"detail_view_disk_free_detail"="%4.1f%% %4.1fGB available";
 
-"detail_view_last_days"="Last    Day (s)";
+"detail_view_last_days"="Last    Days"; //the grammar issue with the number 1 is unavoidable, no matter what you do.
 "detail_view_last"="Last";
-"detail_view_health_mah"="Healthy (mAh) ";
-"detail_view_health"="Healthy";
+"detail_view_health_mah"="Healthy (mAh) "; //"Healthy" isn't correct, needs revision from chinese
+"detail_view_health"="Healthy"; //needs revision from chinese
 "detail_view_temperature"= "Temperature";
-"detail_view_cycle"= "Cycle";
+"detail_view_cycle"= "Charge Cycles";
 
 "curve_not_enough_data"="Not enough data has been collected.";
 
@@ -165,12 +169,12 @@
 "device_info_cell_ip"="IP Address";
 "device_info_system_boottime"="Date of last reboot";
 "device_info_system_runtime"="Uptime";
-"device_info_system_runtime_format"="%d D %d H %d M";
+"device_info_system_runtime_format"="%d days %d hours %d minutes";
 "device_info_no_network"="Unavailable";
 "device_info_no_carrier"="Unavailable";
 "device_info_jail_break_title"="Jailbroken";
 "device_info_is_jail_break"="Yes";
-"device_info_is_not_jail_break"="No"; //Off-topic, but I really don't understand this. Wouldn't you need to jailbreak to install BatteryDoctor Pro, anyway?
+"device_info_is_not_jail_break"="No"; //Off-topic, but I really don't understand this. Wouldn't you need to jailbreak to install BatteryDoctorPro, anyway?
 
 "pull_to_show_more"="Pull up to view the details";
 "push_to_show_less"="Pull down to view the outline";
@@ -187,7 +191,7 @@
 "setting_view_panel_order"="Customize Toggles";
 
 "setting_view_charge"="Charging Settings";
-"setting_view_launch_app"="Run BatteryDoctor Pro when plugged in ";
+"setting_view_launch_app"="Run BatteryDoctorPro when plugged in"; //text string too long, needs revision (abbreviate to BDP?)
 "setting_view_complete_sound"="Alert when charging has completed "; //curious as to what this actually is, as it's never seemed to work for me?
 "setting_view_night_slient"="Do not disturb at night";
 
@@ -217,7 +221,7 @@
 "intelligence_setting_auto_background_setting"="Background Processes";
 "intelligence_setting_auto_background"="Auto-kill Background Processes";
 "intelligence_setting_auto_background_delay"="Delay"; //needs revision
-"intelligence_setting_auto_background_footer"="Kill background apps after devices is locked,\r\n Push Notifications are not affected. ";
+"intelligence_setting_auto_background_footer"="Automatically kill background processes after device is locked,\r\n Push Notifications are not affected. ";
 
 "intelligence_setting_auto_3g_setting"="Network";
 "intelligence_setting_auto_3g"="Enable 2G (EDGE) when locked";
@@ -226,7 +230,7 @@
 "intelligence_setting_auto_3g_footer"="Use 2G (EDGE) to save power when locked,\r\n and enable 3G when unlocked. ";
 "intelligence_setting_auto_4g_footer"="Use 3G to save power when locked,\r\n and enable 4G/LTE when unlocked. ";
 
-"intelligence_setting_0_min"="Immediately";
+"intelligence_setting_0_min"="None"; //"Immediately" would be the best choice, but it doesn't fit.
 "intelligence_setting_1_min"="1 min";
 "intelligence_setting_5_min"="5 mins";
 "intelligence_setting_10_min"="10 mins";
@@ -246,12 +250,12 @@
 "intelligence_setting_mode_1"="Indoor";
 "intelligence_setting_mode_2"="Last State";
 
-"To"="To";
+"To"="To"; //... depending on how/where it's used, this could be lowercase
 
 //appdelegate
-"software_name"="BatteryDoctorPro";
-"respiring_msg"="Configuring the environment. Configuration will finish after a respring.";
-"daemon_fail_alert"="The detection service is not started, please manually restart your %@ to ensure the normal operation of the service, or e-mail app@ijinshan.com.";
+"software_name"="BatteryDoctorPro"; //you told me it was KBatteryDoctorPro...?
+"respiring_msg"="Configuring the environment. Configuration will finish after a respring."; //never saw this before.
+"daemon_fail_alert"="The daemon is not started, please manually restart your %@ to ensure that BatteryDoctorPro works properly, or e-mail app@ijinshan.com."; //or this.
 "daemon_fail_alert_cancel"="OK";
 "daemon_fail_alert_sendfeedback"="Feedback";
 
@@ -260,7 +264,7 @@
 "clean_history_title"="Delete charging history";
 "clean_history_msg_body"="Do you really want to delete your charging history?";
 "alertview_cancel"="Cancel";
-"alertview_ok"="Ok";
+"alertview_ok"="OK";
 
 //feedback
 "feed_back_body_text"="Thanks for your help, my friends!";
@@ -268,25 +272,25 @@
 "feed_back_sending"="Sending email";
 "feed_back_canceled"="Canceled";
 "feed_back_saved"="Email saved";
-"feed_back_faild"="Failed";
+"feed_back_faild"="Send failed";
 
 //rank
-"rankview_view_title"="Battery Usage"; //"Rank" makes no sense
+"rankview_view_title"="Battery Usage"; //"Rank" makes no sense, move the little triangle thing, because the new text string messes it up
 "usage_level"="Impact: %d"; //makes more sense than "# level"
-"usage_min_less"="%d sec"; //consider making these into "minutes" etc if the layout does not break
-"usage_min"="%d min";
-"usage_hour"="%d hr";
-"usage_day"="%d day";
-"usage_second_ago"="%d sec ago";
-"usage_min_ago"="%d min ago";
-"usage_hour_ago"="%d hr ago";
-"usage_day_ago"="%d day ago";
+"usage_min_less"="%d seconds"; //consider making these into "minutes" etc if the layout does not break (though it looks like it will)
+"usage_min"="%d minutes";
+"usage_hour"="%d hours";
+"usage_day"="%d days";
+"usage_second_ago"="%d seconds ago";
+"usage_min_ago"="%d minutes ago";
+"usage_hour_ago"="%d hours ago";
+"usage_day_ago"="%d days ago";
 "usage_mah"="%d mAh";
 "usage_left_title_apprank"="App Name";
 "usage_right_title_apprank"="Impact";
-"rank_24_hours"="   24 Hours";
-"rank_all_records"="     Usage";
-"rank_count_start"=" Launch Count";
+"rank_24_hours"="  24 Hours";
+"rank_all_records"="  Battery Usage";
+"rank_count_start"="  Launch Count";
 "rank_time_starttime"="  Launch Time";
 
 "rank_uninstall_app_title"="Delete \"%@\"";
@@ -296,41 +300,41 @@
 "rank_close_app"="Close";
 "rank_uninstall_app"="Uninstall";
 
-//clear
+///clear
 "clean_view_title"="Accelerate";
-"can_used_disk"="Disk space used";
+"can_used_disk"="Disk used";
 "can_used_memory"="Memory used";
 "used_disk_value"="<font color='%@' size=34>%.1f</font><font color='%@' size=20>%@</font><font color='%@' size=10> %@</font>";
 "used_mem_value"="<font color='%@' size=34>%.1f</font><font color='%@' size=20>%@</font><font color='%@' size=10> %@</font>";
 "used_mem_scan_value"="<font color='#6A6A6A' size=14>Scanning...</font>";
 
-"can_safari_free"="<font color='%@' size=14>Browser cache to be freed (</font> <font color='%@' size=14>%@</font> <font color='%@' size=14>)</font>"; //needs revision? 可释放浏览器缓存
-"safari_free"="<font color='%@' size=14>Empty browser cache(</font><font color='%@' size=14>%@</font><font color='%@' size=14>)</font>";
+"can_safari_free"="<font color='%@' size=14>可释放浏览器缓存(</font> <font color='%@' size=14>%@</font> <font color='%@' size=14>)</font>";
+"safari_free"="<font color='%@' size=14>已释放浏览器缓存(</font><font color='%@' size=14>%@</font><font color='%@' size=14>)</font>";
 "can_disk_free"="<font color='%@' size=14><b>%@</b></font>";
-"can_disk_free_title"="Disk space that can be freed:";
-"disk_free"="<font color='%@' size=14>Freed Space:</font>";
+"can_disk_free_title"="可释放空间:";
+"disk_free"="<font color='%@' size=14>已释放空间:</font>";
 "can_disk_free_value"="<font color='%@' size=16>%@</font> <font color='%@' size=10>%@</font>";
 "can_mem_free"="<font color='%@' size=14><b>%@</b></font>";
-"can_mem_free_title"="Freed Memory:";
-"mem_free"="<font color='%@' size=14>Free Memory:</font>";
+"can_mem_free_title"="可释放内存:";
+"mem_free"="<font color='%@' size=14>已释放内存:</font>";
 "can_mem_free_value"="<font color='%@' size=16>%@</font> <font color='%@' size=10>%@</font>";
 "can_speed"="<font color='%@' size=14><b>%@</b></font>";
-"speed_free"="Speed:";
-"can_speed_free_title"="Can Speed:"; //what
+"speed_free"="已提速:";
+"can_speed_free_title"="可提速:";
 "can_speed_value"="<font color='%@' size=16>%@</font> <font color='%@' size=10>%@</font>";
-"btn_re_clean"="Clean again";
-"btn_clean"="Shake it"; //...um
+"btn_re_clean"="再清理一次";
+"btn_clean"="Shake it";
 
-"scan_item_mem_text"="Scanning memory...";
+"scan_item_mem_text"="Memory scanning...";
 "scan_item_mem_end_text"="Scanning finished";
-"clean_item_mem_result"="Memory freed: %.0f%@";
-"clean_item_mem_text"="Clearing memory...";
+"clean_item_mem_result"="Memory released: %.0f%@";
+"clean_item_mem_text"="Memory Clearing...";
 "clean_item_mem_end_text"="Memory Cleared";
 "scan_item_mem"="<font color='%@' size=15>%@</font>";
-"scan_item_disk_text"="Scanning temporary files...";
-"clean_item_disk_text"="Clearing temporary files...";
-"clean_item_disk_result"="Disk Space used by Temp Files: %.0f%@";
-"clean_item_disk_end_text"="Cleared Temporary Files";
+"scan_item_disk_text"="Temp files scanning...";
+"clean_item_disk_text"="Temp files clearing...";
+"clean_item_disk_result"="Temp files used: %.0f%@";
+"clean_item_disk_end_text"="Temp files Cleared";
 "scan_item_disk"="<font color='%@' size=15>%@</font>";
 "scan_score_format"="<font color='%@' size=48>%.0f</font>";
 "scan_status_text"="Scanning...";
@@ -338,8 +342,74 @@
 "clean_status_text"="Clearing...";
 "clean_status_end_text"="Speed";
 "scan_status_format"="<font color='%@' size=15>%@</font>";
-"clean_result_text"="<font color='#6A6A6A' size=15>Cleaning succeeded,improved %@.</font>"; //don't know context of this
-"clean_btntitle_format"="<font color='#6A6A6A' size=16>The speed is too slow, accelerate now.</font>"; //yeah what
+"clean_result_text"="<font color='#6A6A6A' size=15>Successed,improve %@.</font>";
+"clean_btntitle_format"="<font color='#6A6A6A' size=16>Speed is too slow,accelerate now.</font>";
 "clean_result_info_format"="<font color='#6A6A6A' size=15>%@, %@</font>";
+
+//bottom is untranslated for now
+
+//clear
+"clean_view_title"="Acceleration";
+"can_used_disk"="Junk files:";
+"can_used_memory"="Memory may free:";
+"clean_used_disk"="Junk files cleared:";
+"clean_used_memory"="Memory cleared:";
+"used_disk_value"="<font color='%@' size=34>%.1f</font><font color='%@' size=20>%@</font><font color='%@' size=10> %@</font>";
+"used_mem_value"="<font color='%@' size=34>%.1f</font><font color='%@' size=20>%@</font><font color='%@' size=10> %@</font>";
+"used_mem_scan_value"="<font color='#6A6A6A' size=12>Scanning...</font>";
+
+"can_safari_free"="<font color='%@' size=14>可释放浏览器缓存(</font> <font color='%@' size=14>%@</font> <font color='%@' size=14>)</font>";
+"safari_free"="<font color='%@' size=14>已释放浏览器缓存(</font><font color='%@' size=14>%@</font><font color='%@' size=14>)</font>";
+"can_disk_free"="<font color='%@' size=14><b>%@</b></font>";
+"can_disk_free_title"="可释放空间:";
+"disk_free"="<font color='%@' size=14>已释放空间:</font>";
+"can_disk_free_value"="<font color='%@' size=16>%@</font> <font color='%@' size=10>%@</font>";
+"can_mem_free"="<font color='%@' size=14><b>%@</b></font>";
+"can_mem_free_title"="可释放内存:";
+"mem_free"="<font color='%@' size=14>已释放内存:</font>";
+"can_mem_free_value"="<font color='%@' size=16>%@</font> <font color='%@' size=10>%@</font>";
+"can_speed"="<font color='%@' size=14><b>%@</b></font>";
+"speed_free"="已提速:";
+"can_speed_free_title"="可提速:";
+"can_speed_value"="<font color='%@' size=16>%@</font> <font color='%@' size=10>%@</font>";
+"btn_re_clean"="再清理一次";
+"btn_clean"="Accelerate now";
+"btn_rescan"="      Successed";
+
+"scan_item_mem_text"="正在扫描内存占用...";
+"scan_item_mem_end_text"="内存扫描已完成";
+"clean_item_mem_result"="释放内存: %.0f%@";
+"clean_item_mem_text"="正在清理内存...";
+"clean_item_mem_end_text"="内存清理已完成 ";
+"scan_item_mem"="<font color='%@' size=15>%@</font>";      
+"scan_item_disk_text"="正在扫描垃圾文件...";
+"clean_item_disk_text"="正在清理垃圾文件...";
+"clean_item_disk_result"="缓存空间: %.0f%@";
+"clean_item_disk_end_text"="垃圾文件清理完成   ";
+"scan_item_disk"="<font color='%@' size=15>%@</font>";
+"scan_score_format"="<font color='%@' size=48>%.0f</font><font color='#6A6A6A' size=15></font>";
+"scan_status_text"="Optimization";
+"scan_status_end_text"="Score";
+"clean_status_text"="Optimizing";
+"clean_status_end_text"="Score";
+"scan_status_format"="<font color='%@' size=15>%@</font>";
+"clean_result_text"="<font color='#6A6A6A' size=15>Performance improved %@</font>";
+"clean_result_text2"="<font color='#6A6A6A' size=15>iPhone is at it best</font>";
+"clean_btntitle_format"="<font color='#6A6A6A' size=16>The speed is slow,accelerate now.</font>";
+"clean_btntitle_noneed_format"="<font color='#6A6A6A' size=16>iPhone is at it best</font>";
+"clean_result_info_format"="<font color='#6A6A6A' size=15>本次共%@, %@</font>";
+"scan_item_mem_format"="<font color='#6A6A6A' size=15>%@</font>";
+"scan_items_num_format"="<font color='#6A6A6A' size=48>%@</font><font color='#6A6A6A' size=15></font>";
+"scan_items_num999_format"="<font color='#6A6A6A' size=43>%@</font><font color='#6A6A6A' size=15></font>";
+"scan_mem_result_format"="<font color='#6A6A6A' size=20>%.1f</font><font color='#6A6A6A' size=12> %@</font>";
+"scan_cache_result_format"="<font color='#6A6A6A' size=20>%d</font><font color='#6A6A6A' size=11> Files</font>";
+"clean_mem_result_format"="<font color='#6A6A6A' size=20>%.1f</font><font color='#6A6A6A' size=12> %@</font>";
+"clean_cache_result_format"="<font color='#6A6A6A' size=20>%d</font><font color='#6A6A6A' size=11> Files</font>";
+"scan_item_cache_format"="%@";
+"scan_memory_item"="Memory scanning: %@";
+"scan_cache_item"="Junk file scanning: %@";
+"clean_memory_item"="Memory clearing: %@";
+"clean_cache_item"="Junk file clearing: %@";
+"tip_for_scan_finished_item"="<font color='#6A6A6A' size=16>%d can be optimized,The speed is slow.</font>";
 
 
