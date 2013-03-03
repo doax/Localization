@@ -22,13 +22,13 @@
 
 "PowerModeCustom"="Personalizado ";
 "PowerMode0"="Fuera de casa ";
-"PowerMode1"="Encasa ";
+"PowerMode1"="En casa ";
 "PowerMode2"="Al dormir ";
-"RemainTime"="%@ horas y %@ minutos restantes";
+"RemainTime"="%@ h y %@ m restantes";
 "PowerModeChanged"="Modificado";
 
-"KBPanelFreeMemory"="Mem libre"; //consider switching this term to RAM
-"KBPanelUsedMemory"="Mem usada";
+"KBPanelFreeMemory"="RAM libre"; //consider switching this term to RAM
+"KBPanelUsedMemory"="RAM usada";
 "Button_3G"="3G";
 "Button_4G"="4G";
 "Button_LTE"="LTE";
@@ -73,7 +73,7 @@
 "Alert_Flashlight_On"="Linterna encendida";
 "Alert_Flashlight_Off"="Linterna apagada";
 "Alert_KillBackground_Count"="Cerradas %d apps";
-"Alert_KillBackground_Empty"="No hay apps para cerrar";
+"Alert_KillBackground_Empty"="No hay apps";
 "Alert_Location_On"="Ubicación encendida";
 "Alert_Location_Off"="Ubicación apagada";
 "Alert_Mute_On"="Silencio";
